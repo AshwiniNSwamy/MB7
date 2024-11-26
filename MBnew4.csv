@@ -1,0 +1,11 @@
+## RECSRecommendations Upload File,,,,,,,,
+## RECS''## RECS'' indicates a Recommendations pre-process header. Please do not remove these lines.,,,,,,,,
+## RECS,,,,,,,,
+## RECSUse this file to upload product display information to Recommendations. Each product has its own row. Each line must contain 19 values and if not all are filled a space should be left.,,,,,,,,
+## RECSThe last 100 columns (entity.custom1 - entity.custom100) are custom. The name 'customN' can be replaced with a custom name such as 'onSale' or 'brand'.,,,,,,,,
+## RECSIf the products already exist in Recommendations then changes uploaded here will override the data in Recommendations. Any new attributes entered here will be added to the product''s entry in Recommendations.,,,,,,,,
+## RECSentity.id,entity.name,entity.categoryId,entity.message,entity.thumbnailUrl,entity.value,entity.pageUrl,entity.inventory,entity.custom1
+product1,Millennium Visa/Master Gold,productCategory1,The best product,https://www.bankmillennium.pl/documents/10184/26811088/HubSmall_MasterCard_Gold.png,1,https://www.bankmillennium.pl/en/individuals/payment-cards,1,P1
+product2,WWF MIllennium Mastercard,productCategory2,The best product,https://www.bankmillennium.pl/documents/10184/27840288/HubSmall_MasterCard_WWF.png,2,https://www.bankmillennium.pl/en/individuals/payment-cards,1,P2
+product3,Millennium Visa Global,productCategory3,The best product,https://www.bankmillennium.pl/documents/10184/26811088/asset_karty_hd_debetowa_visa_konto.jpg,3,https://www.bankmillennium.pl/en/individuals/payment-cards,1,P1
+product4,Millenium Visa/Mastercard,productCategory4,The best product,https://www.bankmillennium.pl/documents/10184/26811088/HubSmall_MasterCard_Millennium.png,4,https://www.bankmillennium.pl/en/individuals/payment-cards,1,P2
